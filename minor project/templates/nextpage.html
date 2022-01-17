@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+     <head>
+          <meta charset="utf-8">
+          <title>Projects</title>
+           <meta name="viewport" content="width=device-width, initial-scale=1">
+           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+           <link rel="preconnect" href="https://fonts.gstatic.com">
+           <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+           <link rel="stylesheet" href="static/nextpage.css">
+           <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+     </head>
+<body>
+  <div class="title">
+    <h3>{{msg}} Projects:</h3>
+  </div>
+
+  <div class="contents">
+  <h4>  <img src="static\images\contents.jpg" style="width: 30px; height: 30px;" alt=""> Table of contents:</h4>
+  {% for row in users %} 
+  <a href="#{{row[1]}}"><i class="fas fa-arrow-right fa-xs"></i> {{row[1]}}<br></a>
+  {% endfor %} 
+  </div>
+
+    {% for row in users %}  
+        <div class="card project">
+          <div class="card-body">
+            <h5 class="card-title" id="{{row[1]}}">{{row[1]}}</h5>
+            <p class="card-text">{{row[2]}}</p>
+            <h6 class="card-text"> <img src="static\images\tools.jpg" style="width: 20px; height: 20px;" alt=""> <b> Tools required: </b></h6>
+            <p style="padding-left: 25px;"> {{row[3]}}</p>
+            <p class="card-text"> <img src="static\images\level.png" style="width: 20px; height: 20px;" alt=""> <b> Difficulty Level: </b>{{row[4]}} </p>
+          </div>
+        </div>
+    {% endfor %}  
+
+
+    <footer>
+        <div class="card text-center" style="margin: 5px;">
+          <div class="card-body">
+            <p class="card-title" style="margin: 0 10% 15px 10%;">This webpage will be very helpful for the people who are a bit confused on what projects they can do in order to improve knowledge about the domain. This webpage contains the main domains of CSE and projects related to it that we can do to improve our knowledge in that particular domain of the computer science engineering.
+            </p>
+            <h6>Developers:</h6>
+            <p>P.Karthik Sai Varma
+              <a href=""><i class="fab fa-facebook fa-2x "></i></a>
+              <a href=""><i class="fas fa-envelope fa-2x"></i></a>
+              <a href=""><i class="fab fa-linkedin fa-2x"></i></a>
+              <a href=""><i class="fab fa-instagram fa-2x"></i></a>
+              <a href=""><i class="fab fa-twitter fa-2x"></i></a>
+            </p>
+            <p>P.Asrith Varma
+              <a href=""><i class="fab fa-facebook fa-2x "></i></a>
+              <a href=""><i class="fas fa-envelope fa-2x"></i></a>
+              <a href=""><i class="fab fa-linkedin fa-2x"></i></a>
+              <a href=""><i class="fab fa-instagram fa-2x"></i></a>
+              <a href=""><i class="fab fa-twitter fa-2x"></i></a>
+            </p>
+            <p>P.Bharani kumar Varma
+              <a href=""><i class="fab fa-facebook fa-2x "></i></a>
+              <a href=""><i class="fas fa-envelope fa-2x"></i></a>
+              <a href=""><i class="fab fa-linkedin fa-2x"></i></a>
+              <a href=""><i class="fab fa-instagram fa-2x"></i></a>
+              <a href=""><i class="fab fa-twitter fa-2x"></i></a>
+            </p>
+            <h6 class="card-title" >Thankyou for visiting our website :)</h6>
+    
+          </div>
+        </div>
+      </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

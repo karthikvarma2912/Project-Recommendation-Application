@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+     <head>
+          <meta charset="utf-8">
+          <title>Project Recommendation Engine</title>
+           <meta name="viewport" content="width=device-width, initial-scale=1">
+           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+           <link rel="preconnect" href="https://fonts.gstatic.com">
+           <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+           <link rel="stylesheet" href="static/frontpage.css">
+           <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+     </head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">PRE</a>
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+   </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+             <li class="nav-item active">
+                  <a class="nav-link" href="#">HOME<span class="sr-only">(current)</span></a>
+             </li>
+             <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               DOMAINS
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#ai">Artificial Intelligence</a>
+                <a class="dropdown-item" href="#bc">BlockChain Technology</a>
+                <a class="dropdown-item" href="#cc">Cloud computing</a>
+                <a class="dropdown-item" href="#cs">Cyber Security</a>
+                <a class="dropdown-item" href="#da">Data analytics</a>
+                <a class="dropdown-item" href="#dm">Data mining</a>
+                <a class="dropdown-item" href="#ds">Data science</a>
+                <a class="dropdown-item" href="#ip">Image processing</a>
+                <a class="dropdown-item" href="#iot">Internet of Things</a>
+                <a class="dropdown-item" href="#ml">Machine Learning</a>
+                <a class="dropdown-item" href="#mob">Mobile Applications</a>
+                <a class="dropdown-item" href="#nlp">Natural Language Processing</a>
+                <a class="dropdown-item" href="#net">Networks</a>
+                <a class="dropdown-item" href="#se">Software Engineering</a>
+                <a class="dropdown-item" href="#web">Web Applications</a>
+              </div>
+            </li>
+             <li class="nav-item">
+                  <a class="nav-link" href="#contactus">CONTACT US</a>
+             </li>
+             <li class="nav-item">
+                  <a class="nav-link" href="#about">ABOUT</a>
+             </li>
+             
+          </ul>
+  </div>
+</nav>
+
+<div class="card-group" >
+  <div class="card">
+    <div class="card-body" style="padding-top: 30px; text-align: center;">
+      <h1 class="card-title">Looking for project ideas</h1>
+      <h5 class="card-text" >well... this website is for you</h5>
+      <img src="static\images\look.jpg" style="width:60%; height: auto; padding: 30px;" alt="look2">
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-body" style="padding-top: 30px; text-align: center;">
+      <h1 class="card-title">kick start your projects</h1>
+      <h5 class="card-text" >Right Now...!</h5>
+      <img src="static\images\look2.jpg" style="width:60%; height: auto; padding: 30px;" alt="look2">
+    </div>
+  </div>
+</div>
+
+<div>
+  <h2 style="margin: 15px 0px 15px 40px; color: #fff;">Explore And Get Started:</h2>
+</div>
+
+<div class="card-deck">
+  <div class="card domains ai" id="ai" >
+    <img class="card-img-top" src="static\images\ai.jpg"  alt="ai">
+    <div class="card-body" style="text-align: center;">
+      <h5 class="card-title">Artificial Intelligence</h5>
+      <div class="dropdown">
+        <button type="button" name="ai" class="btn btn-primary btn-sm dropdown-toggle" data-toggle="dropdown">
+          See Projects
+        </button>
+        <form action="">
+        <div class="dropdown-menu">
+          <h4 class="dropdown-header">Select Difficulty Level:</h4>
+          <a class="dropdown-item" name=1 href="/ai1">Beginner</a>
+          <a class="dropdown-item" name=2 href="/ai2">Intermediate</a>
+          <a class="dropdown-item" name=3 href="/ai3">Advanced</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="/ai4">See all</a>
+        </div>
+      </form>
+      </div>
+    </div>
+  </div>
+  <div class="card domains ml" id="ml">
+    <img class="card-img-top" src="static\images\ml.jpg" alt="ml">
+    <div class="card-body" style="text-align: center;">
+      <h5 class="card-title">Machine Learning</h5>
+      <div class="dropdown">
+        <button type="button" class="btn btn-primary btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          See Projects
+        </button>
+        <div class="dropdown-menu">
+          <h4 class="dropdown-header">Select Difficulty Level:</h4>
+          <a class="dropdown-item" href="/ml1">Beginner</a>
+          <a class="dropdown-item" href="/ml2">Intermediate</a>
+          <a class="dropdown-item" href="/ml3">Advanced</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="/ml4">See all</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card domains iot" id="iot">
+    <img class="card-img-top" src="static\images\iot.jpg" alt="iot">
+    <div class="card-body" style="text-align: center;">
+      <h5 class="card-title">Internet of things </h5>
+      <div class="dropdown">
+       <button type="button" class="btn btn-primary btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         See Projects
+       </button>
+       <div class="dropdown-menu">
+         <h4 class="dropdown-header">Select Difficulty Level:</h4>
+         <a class="dropdown-item" href="/iot1">Beginner</a>
+         <a class="dropdown-item" href="/iot2">Intermediate</a>
+         <a class="dropdown-item" href="/iot3">Advanced</a>
+         <div class="dropdown-divider"></div>
+         <a class="dropdown-item" href="/iot4">See all</a>
+       </div>
+     </div>
+    </div>
+  </div>
+</div>
+
+<div class="card-deck">
+  <div class="card domains cc" id="cc">
+    <img class="card-img-top" src="static\images\cloud.jpg"  alt="cc">
+    <div class="card-body" style="text-align: center;">
+      <h5 class="card-title">Cloud Computing</h5>
+      <div class="dropdown">
+        <button type="button" class="btn btn-primary btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          See Projects
+        </button>
+        <div class="dropdown-menu">
+          <h4 class="dropdown-header">Select Difficulty Level:</h4>
+          <a class="dropdown-item" href="/cc1">Beginner</a>
+          <a class="dropdown-item" href="/cc2">Intermediate</a>
+          <a class="dropdown-item" href="/cc3">Advanced</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="/cc4">See all</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card domains net" id="net">
+    <img class="card-img-top" src="static\images\network.jpg" alt="net">
+    <div class="card-body" style="text-align: center;">
+      <h5 class="card-title">Networks</h5>
+      <div class="dropdown">
+       <button type="button" class="btn btn-primary btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         See Projects
+       </button>
+       <div class="dropdown-menu">
+         <h4 class="dropdown-header">Select Difficulty Level:</h4>
+         <a class="dropdown-item" href="/net1">Beginner</a>
+         <a class="dropdown-item" href="/net2">Intermediate</a>
+         <a class="dropdown-item" href="/net3">Advanced</a>
+         <div class="dropdown-divider"></div>
+         <a class="dropdown-item" href="/net4">See all</a>
+       </div>
+     </div>
+    </div>
+  </div>
+  <div class="card domains nlp" id="nlp">
+    <img class="card-img-top" src="static\images\nlp.jpg" alt="nlp">
+    <div class="card-body" style="text-align: center;">
+      <h5 class="card-title">Natural Language Processing</h5>
+      <div class="dropdown">
+        <button type="button" class="btn btn-primary btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          See Projects
+        </button>
+        <div class="dropdown-menu">
+          <h4 class="dropdown-header">Select Difficulty Level:</h4>
+          <a class="dropdown-item" href="/nlp1">Beginner</a>
+          <a class="dropdown-item" href="/nlp2">Intermediate</a>
+          <a class="dropdown-item" href="/nlp3">Advanced</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="/nlp4">See all</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="card-deck">
+  <div class="card domains web" id="web" >
+    <img class="card-img-top" src="static\images\web.jpg"  alt="web">
+    <div class="card-body" style="text-align: center;">
+      <h5 class="card-title">Web Applications</h5>
+      <div class="dropdown">
+        <button type="button" class="btn btn-primary btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          See Projects
+        </button>
+        <div class="dropdown-menu">
+          <h4 class="dropdown-header">Select Difficulty Level:</h4>
+          <a class="dropdown-item" href="/web1">Beginner</a>
+          <a class="dropdown-item" href="/web2">Intermediate</a>
+          <a class="dropdown-item" href="/web3">Advanced</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="/web4">See all</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card domains mob" id="mob">
+    <img class="card-img-top" src="static\images\mob.jpg" alt="mob">
+    <div class="card-body" style="text-align: center;">
+      <h5 class="card-title">Mobile Applications</h5>
+      <div class="dropdown">
+        <button type="button" class="btn btn-primary btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          See Projects
+        </button>
+        <div class="dropdown-menu dropdown-menu">
+          <h4 class="dropdown-header">Select Difficulty Level:</h4>
+          <a class="dropdown-item" href="/mob1">Beginner</a>
+          <a class="dropdown-item" href="/mob2">Intermediate</a>
+          <a class="dropdown-item" href="/mob3">Advanced</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="/mob4">See all</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card domains bc" id="bc">
+    <img class="card-img-top" src="static\images\bc.jpg" alt="bc">
+    <div class="card-body" style="text-align: center;">
+      <h5 class="card-title">Block Chain Technology</h5>
+      <div class="dropdown">
+        <button type="button" class="btn btn-primary btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          See Projects
+        </button>
+        <div class="dropdown-menu">
+          <h4 class="dropdown-header">Select Difficulty Level:</h4>
+          <a class="dropdown-item" href="/bc1">Beginner</a>
+          <a class="dropdown-item" href="/bc2">Intermediate</a>
+          <a class="dropdown-item" href="/bc3">Advanced</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="/bc4">See all</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="card-deck">
+  <div class="card domains da" id="da" >
+    <img class="card-img-top" src="static\images\da.jpg"  alt="da">
+    <div class="card-body" style="text-align: center;">
+      <h5 class="card-title">Data Analytics</h5>
+      <div class="dropdown">
+       <button type="button" class="btn btn-primary btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         See Projects
+       </button>
+       <div class="dropdown-menu">
+         <h4 class="dropdown-header">Select Difficulty Level:</h4>
+         <a class="dropdown-item" href="/da1">Beginner</a>
+         <a class="dropdown-item" href="/da2">Intermediate</a>
+         <a class="dropdown-item" href="/da3">Advanced</a>
+         <div class="dropdown-divider"></div>
+         <a class="dropdown-item" href="/da4">See all</a>
+       </div>
+     </div>
+    </div>
+  </div>
+  <div class="card domains ds" id="ds">
+    <img class="card-img-top" src="static\images\ds.jpg" alt="ds">
+    <div class="card-body" style="text-align: center;">
+      <h5 class="card-title">Data Science</h5>
+      <div class="dropdown">
+        <button type="button" class="btn btn-primary btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          See Projects
+        </button>
+        <div class="dropdown-menu">
+          <h4 class="dropdown-header">Select Difficulty Level:</h4>
+          <a class="dropdown-item" href="/ds1">Beginner</a>
+          <a class="dropdown-item" href="/ds2">Intermediate</a>
+          <a class="dropdown-item" href="/ds3">Advanced</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="/ds4">See all</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card domains dm" id="dm">
+    <img class="card-img-top" src="static\images\dm.jpg" alt="dm">
+    <div class="card-body" style="text-align: center;">
+      <h5 class="card-title">Data mining</h5>
+      <div class="dropdown">
+        <button type="button" class="btn btn-primary btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          See Projects
+        </button>
+        <div class="dropdown-menu">
+          <h4 class="dropdown-header">Select Difficulty Level:</h4>
+          <a class="dropdown-item" href="/dm1">Beginner</a>
+          <a class="dropdown-item" href="/dm2">Intermediate</a>
+          <a class="dropdown-item" href="/dm3">Advanced</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="/dm4">See all</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="card-deck">
+  <div class="card domains se" id="se" >
+    <img class="card-img-top" src="static\images\se.jpg"  alt="se">
+    <div class="card-body" style="text-align: center;">
+      <h5 class="card-title">Software Engineering</h5>
+      <div class="dropdown">
+        <button type="button" class="btn btn-primary btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          See Projects
+        </button>
+        <div class="dropdown-menu">
+          <h4 class="dropdown-header">Select Difficulty Level:</h4>
+          <a class="dropdown-item" href="/se1">Beginner</a>
+          <a class="dropdown-item" href="/se2">Intermediate</a>
+          <a class="dropdown-item" href="/se3">Advanced</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="/se4">See all</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card domains ip" id="ip">
+    <img class="card-img-top" src="static\images\ip.jpg" alt="ip">
+    <div class="card-body" style="text-align: center;">
+      <h5 class="card-title">Image Processing</h5>
+      <div class="dropdown">
+        <button type="button" class="btn btn-primary btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          See Projects
+        </button>
+        <div class="dropdown-menu">
+          <h4 class="dropdown-header">Select Difficulty Level:</h4>
+          <a class="dropdown-item" href="/ip1">Beginner</a>
+          <a class="dropdown-item" href="/ip2">Intermediate</a>
+          <a class="dropdown-item" href="/ip3">Advanced</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="/ip4">See all</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card domains cs" id="cs">
+    <img class="card-img-top" src="static\images\cs.jpg" alt="cs">
+    <div class="card-body" style="text-align: center;">
+      <h5 class="card-title">Cyber Security</h5>
+      <div class="dropdown">
+       <button type="button" class="btn btn-primary btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         See Projects
+       </button>
+       <div class="dropdown-menu">
+         <h4 class="dropdown-header">Select Difficulty Level:</h4>
+         <a class="dropdown-item" href="/cs1">Beginner</a>
+         <a class="dropdown-item" href="/cs2">Intermediate</a>
+         <a class="dropdown-item" href="/cs3">Advanced</a>
+         <div class="dropdown-divider"></div>
+         <a class="dropdown-item" href="/cs4">See all</a>
+       </div>
+     </div>
+    </div>
+  </div>
+</div>
+<div id="contactus">
+  <h2 style="margin: 20px 0px 20px 40px; color: #fff;">Contact Us:</h2>
+</div>
+
+  <div class="form w-50 m-auto">
+    <form action="/submit" method="POST">
+      <div class="form-group">
+        <label for="email" style="color: #fff;">Email address</label>
+        <input type="email" name="email" class="form-control" id="email" placeholder="name@example.com" required autocomplete="off">
+      </div>
+      <div class="form-group">
+        <label for="feedback" style="color: #fff;">Give Us A Feedack</label>
+        <select class="form-control" name="rating" id="feedback">
+          <option>Excellent</option>
+          <option>Very good</option>
+          <option>Good</option>
+          <option>Satisfactory</option>
+          <option>Poor</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="comments" style="color: #fff;">Comments</label>
+        <textarea class="form-control" name="comments" id="comments" rows="3" placeholder="Drop Your Comments Here" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+
+  <div id="about">
+    <h2 style="margin: 20px 0px 20px 40px; color: #fff;">About:</h2>
+  </div>
+  <footer>
+    <div class="card text-center" style="margin: 5px;">
+      <div class="card-body">
+        <p class="card-title" style="margin: 0 10% 15px 10%;">This webpage contains the main domains of CSE and projects related to it that we can do to improve our knowledge in that particular domain of the computer science engineering.
+        </p>
+        <h5>Developers:</h5>
+        <p>P.Karthik Sai Varma
+          <a href="https://www.facebook.com/karthikvarma2912/" target="_blank"><i class="fab fa-facebook fa-2x "></i></a>
+          <a href="mailto: karthikvarma2912@gmail.com"><i class="fas fa-envelope fa-2x"></i></a>
+          <a href="https://www.linkedin.com/in/karthik-sai-varma-penmetsa-5477101b6/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+          <a href="https://www.instagram.com/karthik_varma___/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+          <a href="https://twitter.com/karthiksaivarm1" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+        </p>
+        <p>P.Asrith Varma
+          <a href=""><i class="fab fa-facebook fa-2x "></i></a>
+          <a href=""><i class="fas fa-envelope fa-2x"></i></a>
+          <a href=""><i class="fab fa-linkedin fa-2x"></i></a>
+          <a href=""><i class="fab fa-instagram fa-2x"></i></a>
+          <a href=""><i class="fab fa-twitter fa-2x"></i></a>
+        </p>
+        <p>P.Bharani kumar Varma
+          <a href=""><i class="fab fa-facebook fa-2x "></i></a>
+          <a href=""><i class="fas fa-envelope fa-2x"></i></a>
+          <a href=""><i class="fab fa-linkedin fa-2x"></i></a>
+          <a href=""><i class="fab fa-instagram fa-2x"></i></a>
+          <a href=""><i class="fab fa-twitter fa-2x"></i></a>
+        </p>
+        <h5 class="card-title" >Thankyou for visiting our website :)</h5>
+
+      </div>
+    </div>
+  </footer>
+
+  
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

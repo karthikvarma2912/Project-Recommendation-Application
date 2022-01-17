@@ -1,0 +1,27 @@
+body{
+  background: linear-gradient(to right, #000000 9%, #0062ff 100%);
+}
+.card{
+  margin: 5px 7% 5px 7%;
+}
+.title{
+  margin: 20px 7% 10px 7%;
+  color: #fff;
+}
+/* h4{
+  color: #fff;
+} */
+.contents{
+  margin: 10px 7% 5px 7%;
+  border: white 3px solid;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 10px ;
+  background-color: #fff;
+}
+footer{
+  font-size: x-small ;
+}
+html {
+  scroll-behavior: smooth;
+}
